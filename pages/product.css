@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(35, 84, 96);
+    width: 100%;
+}
+
+.navbar .icon{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+.home .col-sm{
+    background-color: aliceblue;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.home img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(35, 84, 96);
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+}

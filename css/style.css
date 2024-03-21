@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background:none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.navbar .icon{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.nav-item a{
+    color: #000000;
+}
+
+
+.home{
+    background-image: url(../images/banner\ furniture.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.home .container{
+    width: 50%;
+}
+
+.home p{
+    width: 75%;
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.about .bg-cl{
+    background-color: rgb(35, 84, 96);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.categories .img1{
+    padding-top: 100px;
+}
+
+.categories img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Brands .row{
+    background-color: #f8f8f8;
+
+}
+
+.Brands .col-sm{
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+    align-items: center;
+}
+
+.Brands img{
+    width: 100%;
+}
+
+.Brands .col-sm:hover{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: rgb(35, 84, 96);
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px;
+        bottom: 0;
+        right: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #1a3c4d;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(100%);
+    }
+}
+
+@media (max-width: 578px) {
+    .categories .img1{
+        padding-top: 0px;
+    }
+
+}
